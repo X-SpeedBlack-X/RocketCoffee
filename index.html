@@ -23,23 +23,33 @@
           <img class="logo" src="assets/logo-desktop.svg" alt="logo" />
         </div>
         <img class="mobile-logo" src="assets/logo-mobile.svg" alt="logo" />
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="">Menu</a></li>
-            <li><a href="">Recompensas</a></li>
-            <li><a href="">Gift Cards</a></li>
-            <li><a href="">Lojas</a></li>
+
+        <nav class="navigation" id="navigation">
+          <button type="image" id="open-toggle" class="toggle">
+            <img
+              class="toggle-img"
+              src="assets/menu-buguer-open.svg"
+              alt="toggle"
+            />
+          </button>
+
+          <!-- <button type="image" id="close-toggle" class="toggle">
+            <img
+              class="toggle-img"
+              src="assets/menu-buguer-close.svg"
+              alt="toggle"
+            />
+          </button> -->
+
+          <ul class="menu" id="menu">
+            <li><a class="active" href="/">Home</a></li>
+            <li><a href="/">Menu</a></li>
+            <li><a href="/">Recompensas</a></li>
+            <li><a href="/">Gift Cards</a></li>
+            <li><a href="/">Lojas</a></li>
           </ul>
         </nav>
         <button class="btn">PEGAR MEU CAFÉ</button>
-        <button type="image" id="open-toggle" class="toggle">
-          <img
-            class="toggle-img"
-            src="assets/menu-buguer-open.svg"
-            alt="toggle"
-          />
-        </button>
       </div>
     </header>
 
@@ -58,5 +68,6 @@
         alt="image de dois cafés"
       />
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
