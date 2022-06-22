@@ -41,7 +41,7 @@ body {
   right: 0;
   z-index: -10;
   background: var(--button);
-  filter: blur(550px);
+  filter: blur(150px);
 }
 
 .container {
